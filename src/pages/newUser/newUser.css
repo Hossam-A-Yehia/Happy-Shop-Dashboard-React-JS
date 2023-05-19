@@ -1,0 +1,11 @@
+@media (max-width: 639px) {
+  .inputs.d-flex.flex-column.mt-2 {
+    width: 300px !important;
+  }
+}
+
+@media (max-width: 475px) {
+  .inputs.d-flex.flex-column.mt-2 {
+    width: 200px !important;
+  }
+}

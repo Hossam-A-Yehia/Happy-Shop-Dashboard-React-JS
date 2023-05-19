@@ -1,0 +1,8 @@
+@media (max-width: 450px) {
+  .chart {
+    width: 99% !important;
+  }
+  .chart__title {
+    font-size: 14px !important;
+  }
+}

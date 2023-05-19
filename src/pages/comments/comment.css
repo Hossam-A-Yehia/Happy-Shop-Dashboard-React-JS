@@ -1,0 +1,29 @@
+@media (max-width: 639px) {
+  .comments thead {
+    display: none;
+  }
+  .comments tbody tr {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .comments tbody tr img {
+    display: none;
+  }
+  .comments tbody tr td:first-child::before {
+    content: "المستخدم  :";
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  .comments tbody tr td:nth-child(2)::before {
+    content: "المنتج  :";
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  .comments tbody tr td:nth-child(3)::before {
+    content: "التعليق  :";
+    margin: 0 10px;
+    font-weight: bold !important;
+    color: black !important;
+  }
+}

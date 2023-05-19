@@ -1,0 +1,29 @@
+.complaintsBox {
+    flex: 4;
+}
+
+.complaintsBox .container .boxs {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+
+.complaintsBox .container  img {
+    max-width: 100%;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    position: absolute;
+    top: -35px;
+    left: -3px;
+}
+
+.complaintsBox .container p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.complaintsBox .container h3 {
+    font-size: 20px;
+}

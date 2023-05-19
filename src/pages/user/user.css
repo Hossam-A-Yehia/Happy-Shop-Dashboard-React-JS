@@ -1,0 +1,15 @@
+@media (max-width: 991px) {
+  .container__info {
+    flex-direction: column;
+  }
+}
+@media (max-width: 639px) {
+  .container__info form {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  .container__info form div:first-child {
+    width: 100% !important;
+  }
+}

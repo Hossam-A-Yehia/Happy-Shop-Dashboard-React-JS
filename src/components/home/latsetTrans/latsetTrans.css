@@ -1,0 +1,26 @@
+.status__button{
+  border: none;
+  background: none;
+  line-height: revert;
+  font-size: 14px;
+  padding: 5px 5px;
+  font-weight: 500;
+  border-radius: 10px;
+}
+.status__button.approved{
+  background-color: #e5faf1;
+  color:#3bb077;
+}
+.status__button.declined{
+  background-color: #fff0f1;
+  color: #d95087;
+}
+.status__button.pending{
+  background-color: #ebf1fe;
+  color: #3bb077;
+}
+
+.td__latest {
+  line-height:45px ;
+  font-weight: 500;
+}

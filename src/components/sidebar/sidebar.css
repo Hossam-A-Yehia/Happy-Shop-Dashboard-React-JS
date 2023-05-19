@@ -1,0 +1,16 @@
+.sidebar{
+  flex: 1;
+  background-color: #fdfdfd;
+  height: calc(100vh - 50px);
+}
+.sidebar ul li {
+  padding: 5px;
+  transition: 0.3s;
+  font-size: 15px;
+  font-weight: 500;
+}
+.sidebar ul li:hover,
+.sidebar ul li.active {
+  background-color: #ccc;
+
+}

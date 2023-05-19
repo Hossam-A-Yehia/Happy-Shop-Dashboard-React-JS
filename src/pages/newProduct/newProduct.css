@@ -1,0 +1,5 @@
+@media (max-width: 991px) {
+  .new__product form {
+    flex-direction: column;
+  }
+}

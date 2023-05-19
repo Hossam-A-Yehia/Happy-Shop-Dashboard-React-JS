@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: "Cairo", sans-serif;
+}
+
+a {
+  text-decoration: none !important;
+  color: black !important;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav__icons {
+  width: 22px;
+  height: 22px;
+  font-size: 12px;
+  line-height: 7px;
+  right: 15px;
+  top: -7px;
+}
+
+.MuiDataGrid-cell.MuiDataGrid-cellLeft {
+  display: flex !important;
+}
